@@ -1,0 +1,38 @@
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem; /*margen izquierdo*/
+  z-index: 2; /*hace que este por encima */
+  position: fixed; /* esto es lo que hace que uno suba y baje y quede ahi */
+  left: 50%; /*lo centra*/
+  transform: translateX(-50%);
+  bottom: 2rem; /*lo baja */
+  display: flex; /*?*/
+  gap: 0.8rem; /*los separa*/
+  border-radius: 3rem; /*redondea el borde*/
+  backdrop-filter: blur(15px);
+}
+
+nav a {
+  background: transparent;
+  padding: 0.9rem; /*la barra se agrando*/
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light); /*cambio los colores de los iconos*/
+  font-size: 1.1rem; /*los iconos/barra se agrandaron*/
+}
+
+nav a:hover {
+  background: rgba(
+    0,
+    0,
+    0,
+    0.3
+  ); /*cambia los colores de fondo al pasar por los iconos*/
+}
+
+nav a.active {  /*creamos una clase a la que le asignamos a home y le pusimos un fondo diferente*/
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
