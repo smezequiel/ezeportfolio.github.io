@@ -1,9 +1,10 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+import AVTR1 from '../../assets/spanish-flag.png'
+import AVTR2 from '../../assets/english-flag.jpg'
+import AVTR3 from '../../assets/portuguese-flag.jpg'
+import AVTR4 from '../../assets/italian-flag.jpg'
+import AVTR5 from '../../assets/french-flag.png'
 
 // import Swiper core and required modules
 import {Pagination} from 'swiper';
@@ -20,23 +21,28 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: 'Tina Snow',
-    review: 'Typical fandom wiki. Even if a character is called one thing by one person once in a short scene, they list it as a nickname/alias.'
+    name: 'Spanish',
+    review: 'Native. 20+ years'
   },
   {
     avatar: AVTR2,
-    name: 'Carlos Araujo',
-    review: 'Typical fandom wiki. Even if a character is called one thing by one person once in a short scene, they list it as a nickname/alias.'
+    name: 'English',
+    review: 'Bilingual Proficiency. 20+ years'
   },
   {
     avatar: AVTR3,
-    name: 'Shata Wale',
-    review: 'Typical fandom wiki. Even if a character is called one thing by one person once in a short scene, they list it as a nickname/alias.'
+    name: 'Portuguese',
+    review: 'Fluent. 5+ years'
   },
   {
     avatar: AVTR4,
-    name: 'Kwawe Despite',
-    review: 'Typical fandom wiki. Even if a character is called one thing by one person once in a short scene, they list it as a nickname/alias.'
+    name: 'Italian',
+    review: 'Limited Proficiency. 2 years'
+  },
+  {
+    avatar: AVTR5,
+    name: 'French',
+    review: 'Elementary Profiency. 1 year'
   },
 ]
 
@@ -44,8 +50,8 @@ const data = [
 const Testimonial = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>.</h5>
+      <h2>Languages</h2>
 
       <Swiper className="container testimonials__container"
             // install Swiper modules
