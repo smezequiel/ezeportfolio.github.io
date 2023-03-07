@@ -12,8 +12,10 @@ import {Pagination} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/swiper.min.css'
+import 'swiper/modules/pagination/pagination.min.css'
+{/*import 'swiper/css';
+import 'swiper/css/pagination';*/}
 {/*import 'swiper/css/scrollbar'; tambien descartada*/}
 {/*import 'swiper/css/navigation'; la descartamos porque vamos a instalar pagination*/}
 
