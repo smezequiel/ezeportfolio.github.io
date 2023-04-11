@@ -1,5 +1,5 @@
 import React from 'react'
-import CVEzequielSanMartin from '../../assets/CVEzequielSanMartin.pdf'
+import CVEzequielSanMartin from '../../assets/ESM23Resume.pdf'
 
 const CTA = () => {
   return (

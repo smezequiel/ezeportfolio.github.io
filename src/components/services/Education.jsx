@@ -37,6 +37,10 @@ const Education = () => {
           </li>
           <li>
           <AiOutlineCheckCircle className='service__list-icon'/>
+          <p>Front-end Development with HTML, CSS and JS </p>
+          </li>
+          <li>
+          <AiOutlineCheckCircle className='service__list-icon'/>
           <p>Building with React </p>
           </li>
         </ul>
@@ -83,6 +87,14 @@ const Education = () => {
           <h3>Others</h3>
         </div>
         <ul className='service__list'>
+          <li>
+          <AiOutlineCheckCircle className='service__list-icon'/>
+          <p>Cloud Computing </p>
+          </li>
+          <li>
+          <AiOutlineCheckCircle className='service__list-icon'/>
+          <p>AWS Cloud Technical Essentials</p>
+          </li>
           <li>
           <AiOutlineCheckCircle className='service__list-icon'/>
           <p>Professional Web with Wordpress </p>
